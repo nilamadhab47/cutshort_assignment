@@ -1,0 +1,35 @@
+.App {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  background: #fff;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+
+/* For extremely small screen devices (595px and below) */
+@media screen and (max-width: 480px) {
+  .heading {
+    font-size: 1rem;
+  
+  }
+  .paragraph {
+    font-size: 0.8rem;
+  }
+
+  .button {
+    width: 100%;
+  }
+}
+ 
+/* Large devices (laptops/desktops, 992px and up) */
+

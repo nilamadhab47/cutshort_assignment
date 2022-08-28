@@ -1,0 +1,36 @@
+a {
+    cursor : pointer;
+    text-decoration : none;
+    color : #000000;
+}
+
+a:link {
+    cursor : pointer;
+    text-decoration : none;
+    color : #000000;
+}
+
+/* a:active {
+    border : 1px solid #664de6;
+} */
+
+a:link:hover {
+    cursor : pointer;
+    text-decoration : none;
+    border : 1px solid #664de6;
+}
+
+@media screen and (max-width: 480px) {
+    h2 {
+      font-size: 1rem;
+    
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }
+   
